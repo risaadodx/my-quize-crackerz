@@ -1,0 +1,5 @@
+.options {
+  display: grid;
+  grid-template-columns: 2, 1fr;
+  background-color: aquamarine;
+}

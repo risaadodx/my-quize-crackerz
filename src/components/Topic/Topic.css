@@ -1,0 +1,25 @@
+.topic {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+  width: 270px;
+}
+.topic-item {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-btn {
+  width: 30%;
+  padding: 8px 30px;
+  color: white;
+  background-color: blueviolet;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+}
+.link-btn:hover {
+  background-color: rgb(52, 5, 97);
+}
