@@ -1,0 +1,13 @@
+.hero-title {
+  width: 25%;
+  margin-top: 15%;
+  margin-left: 15%;
+  position: absolute;
+  color: white;
+}
+.hero-img {
+  margin-top: 5%;
+  width: 80%;
+  height: 500px;
+  border-radius: 10px;
+}

@@ -5,3 +5,15 @@
   margin-right: 10%;
   align-items: center;
 }
+.menu {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  text-decoration: none;
+}
+.menu a:active {
+  text-decoration: underline;
+  color: red;
+}
