@@ -7,7 +7,11 @@ const Topic = ({ topic }) => {
   return (
     <div className="topic">
       <img
-        style={{ width: "100%", backgroundColor: "blueviolet" }}
+        style={{
+          width: "100%",
+          backgroundColor: "blueviolet",
+          borderRadius: "10px",
+        }}
         src={logo}
         alt=""
       />
