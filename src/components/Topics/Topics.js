@@ -1,6 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
-import Header from "../Header/Header";
+import hero from "../../hero.jpg";
 import Topic from "../Topic/Topic";
 import "./Topics.css";
 
@@ -10,6 +10,10 @@ const Topics = () => {
   console.log(topics);
   return (
     <div>
+      <div>
+        <h1 className="hero-title">Lern Web Development By Quize</h1>
+        <img className="hero-img" src={hero} alt="" />
+      </div>
       <div className="topics">
         {topics.map((topic) => (
           <Topic key={topic.id} topic={topic}></Topic>
