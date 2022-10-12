@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Question = ({ q }) => {
   const { question, options, correctAnswer } = q;
-  const notify = () => toast({ correctAnswer });
+  const notify = () => toast(correctAnswer);
   return (
     <div className="question">
       <h3>{question.slice(3, -4)}</h3>
